@@ -1,5 +1,5 @@
 <template>
-<div>
+  <div>
     <li>{{ country.capital }}</li>
     <li>{{ country.population }}</li>
   </div>
