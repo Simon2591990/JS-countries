@@ -1,14 +1,10 @@
 <template>
   <div>
     <h2 v-on:click="countryInfo(country)">{{ country.name }}</h2>
-    <div v-if="countryInfoClicked === country">
+    <div v-if="countryInfoClicked === country" v-bind="countryInfoClicked">
       <li>Capital: {{ country.capital }}</li>
       <li>Population: {{ country.population }}</li>
     </div>
-    <div>
-
-    </div>
-    <!-- <country-info></country-info> -->
   </div>
 </template>
 
